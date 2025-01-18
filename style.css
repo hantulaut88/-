@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(https://i.pinimg.com/736x/56/d5/4f/56d54f69f57d1e6608e86bb211c1a582.jpg);/* Gambar sebagai latar belakang */
+    background-size: cover; /* Agar gambar menutupi seluruh layar */
+    color: rgb(0, 0, 0);
+    padding: 50px 0;
+    min-height: 100vh; /* Memastikan latar belakang memenuhi seluruh tinggi layar */
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.container {
+    background: rgb(255, 255, 255); /* Menggunakan warna putih dengan transparansi untuk kontras */
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+label {
+    display: block;
+    font-size: 16px;
+    margin: 15px 0 5px;
+    text-align: left;
+    color: #333;
+}
+input { 
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+input:focus {
+    border-color: #ff8a00;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 138, 0, 0.5);
+}
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #000000;
+    color: rgb(92, 250, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #e52e71;
+}
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Style untuk bagian header perusahaan */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h2 {
+    font-size: 50px;
+    font-weight: Impact;
+    color: #50fd00;
+    margin-bottom: 10px;
+}
+.header .tagline {
+    font-size: 18px;
+    color: #ffffff;
+    font-style: italic;
+}
